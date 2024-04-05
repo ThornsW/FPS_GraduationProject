@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a7331fc07349b124c8c15d545676f9ed
+timeCreated: 1567558030
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _Texture: {fileID: 2800000, guid: 84508b93f15f2b64386ec07486afc7a3, type: 3}
+  - _Blood: {fileID: 2800000, guid: 84508b93f15f2b64386ec07486afc7a3, type: 3}
+  - _Emissive: {fileID: 2800000, guid: 84508b93f15f2b64386ec07486afc7a3, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9addcc05f8c4a4ab917527dec0a6a42, type: 3}
+  m_Name: S1897_Audio_Data
+  m_EditorClassIdentifier: 
+  ShootingAudio: {fileID: 8300000, guid: 38b450e2adcb6f542acc8c1d423bd8dc, type: 3}
+  ReloadOpen: {fileID: 8300000, guid: bc2495e629fa1834993cd2b63eb5354d, type: 3}
+  ReloadInsert: {fileID: 8300000, guid: 627283682cdb8784f9b8f4279751facf, type: 3}
+  ReloadClose: {fileID: 8300000, guid: 43d60630705c9c34c8a114be2f9fff0c, type: 3}

@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: b4287c2fab97b824788c06e73463f15d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: polySurface4211
+    100002: //RootNode
+    100004: SM_Bld_Motel_Attachments_01
+    100006: SM_Bld_Motel_Door_01
+    100008: SM_Bld_Motel_Door_02
+    100010: SM_Bld_Motel_Door_03
+    100012: SM_Bld_Motel_Door_04
+    100014: SM_Bld_Motel_Door_05
+    100016: SM_Bld_Motel_Door_06
+    100018: SM_Bld_Motel_Door_07
+    100020: SM_Bld_Motel_Door_08
+    100022: SM_Bld_Motel_Overgrowth_01
+    100024: SM_Bld_Motel_Overgrowth_Grass_01
+    100026: SM_Bld_Motel_01_Attachments_01
+    100028: SM_Bld_Motel_01_Barricades_01
+    100030: SM_Bld_Motel_01_Overgrowth_01
+    100032: SM_Bld_Motel_01_Sign_01
+    400000: polySurface4211
+    400002: //RootNode
+    400004: SM_Bld_Motel_Attachments_01
+    400006: SM_Bld_Motel_Door_01
+    400008: SM_Bld_Motel_Door_02
+    400010: SM_Bld_Motel_Door_03
+    400012: SM_Bld_Motel_Door_04
+    400014: SM_Bld_Motel_Door_05
+    400016: SM_Bld_Motel_Door_06
+    400018: SM_Bld_Motel_Door_07
+    400020: SM_Bld_Motel_Door_08
+    400022: SM_Bld_Motel_Overgrowth_01
+    400024: SM_Bld_Motel_Overgrowth_Grass_01
+    400026: SM_Bld_Motel_01_Attachments_01
+    400028: SM_Bld_Motel_01_Barricades_01
+    400030: SM_Bld_Motel_01_Overgrowth_01
+    400032: SM_Bld_Motel_01_Sign_01
+    2300000: polySurface4211
+    2300002: //RootNode
+    2300004: SM_Bld_Motel_Attachments_01
+    2300006: SM_Bld_Motel_Door_01
+    2300008: SM_Bld_Motel_Door_02
+    2300010: SM_Bld_Motel_Door_03
+    2300012: SM_Bld_Motel_Door_04
+    2300014: SM_Bld_Motel_Door_05
+    2300016: SM_Bld_Motel_Door_06
+    2300018: SM_Bld_Motel_Door_07
+    2300020: SM_Bld_Motel_Door_08
+    2300022: SM_Bld_Motel_Overgrowth_01
+    2300024: SM_Bld_Motel_Overgrowth_Grass_01
+    2300026: SM_Bld_Motel_01_Attachments_01
+    2300028: SM_Bld_Motel_01_Barricades_01
+    2300030: SM_Bld_Motel_01_Overgrowth_01
+    2300032: SM_Bld_Motel_01_Sign_01
+    3300000: polySurface4211
+    3300002: //RootNode
+    3300004: SM_Bld_Motel_Attachments_01
+    3300006: SM_Bld_Motel_Door_01
+    3300008: SM_Bld_Motel_Door_02
+    3300010: SM_Bld_Motel_Door_03
+    3300012: SM_Bld_Motel_Door_04
+    3300014: SM_Bld_Motel_Door_05
+    3300016: SM_Bld_Motel_Door_06
+    3300018: SM_Bld_Motel_Door_07
+    3300020: SM_Bld_Motel_Door_08
+    3300022: SM_Bld_Motel_Overgrowth_01
+    3300024: SM_Bld_Motel_Overgrowth_Grass_01
+    3300026: SM_Bld_Motel_01_Attachments_01
+    3300028: SM_Bld_Motel_01_Barricades_01
+    3300030: SM_Bld_Motel_01_Overgrowth_01
+    3300032: SM_Bld_Motel_01_Sign_01
+    4300000: SM_Bld_Motel_01
+    4300002: SM_Bld_Motel_Overgrowth_01
+    4300004: SM_Bld_Motel_Overgrowth_Grass_01
+    4300006: SM_Bld_Motel_Door_01
+    4300008: SM_Bld_Motel_Door_02
+    4300010: SM_Bld_Motel_Door_03
+    4300012: SM_Bld_Motel_Door_04
+    4300014: SM_Bld_Motel_Door_06
+    4300016: SM_Bld_Motel_Door_05
+    4300018: SM_Bld_Motel_Door_07
+    4300020: SM_Bld_Motel_Door_08
+    4300022: SM_Bld_Motel_Attachments_01
+    4300024: polySurface4211
+    4300026: SM_Bld_Motel_01_Sign_01
+    4300028: SM_Bld_Motel_01_Overgrowth_01
+    4300030: SM_Bld_Motel_01_Barricades_01
+    4300032: SM_Bld_Motel_01_Attachments_01
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 5
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

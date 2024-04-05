@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05005d367caa52e47803aab46b1ab932, type: 3}
+  m_Name: FP Footstep Audio Data
+  m_EditorClassIdentifier: 
+  FootstepAudios:
+  - Tag: Carpet
+    AudioClips:
+    - {fileID: 8300000, guid: fa2aaa21968431a4eb4e3e8324a9299f, type: 3}
+    - {fileID: 8300000, guid: 6d1ba385e5490634bab0631d325499a7, type: 3}
+    - {fileID: 8300000, guid: 14672ae9be40fed47a668a7b61c530e4, type: 3}
+    - {fileID: 8300000, guid: 988be6d46b1541f499961c0d0188099f, type: 3}
+    - {fileID: 8300000, guid: 7caaa802a89852a4a8f6e931b4d9111b, type: 3}
+    - {fileID: 8300000, guid: f4b444aaef60abf4a954b62ae10edfb9, type: 3}
+    - {fileID: 8300000, guid: c4c67ca939e4a9147a7e642edd974a9b, type: 3}
+    - {fileID: 8300000, guid: b7475327bc3eaa94798c36ddc06ed6c4, type: 3}
+    - {fileID: 8300000, guid: 159e7f855ae07364abd9ccfdfe1098f8, type: 3}
+    WalkingInterval: 0
+    SprintingInterval: 0
+    CouchingInterval: 0
+  - Tag: Concrete
+    AudioClips:
+    - {fileID: 8300000, guid: f374e4bb0a72e1e4998b7c00e375c793, type: 3}
+    - {fileID: 8300000, guid: cfd281a9e64c1264b9f2b42fb9096a9e, type: 3}
+    - {fileID: 8300000, guid: 4bfe0f71ce2f2aa459fe0c0e9640762c, type: 3}
+    - {fileID: 8300000, guid: 03da0528f7ce83849b2b517a14f35226, type: 3}
+    - {fileID: 8300000, guid: 0e3bc1a5cab232541a630796f716956a, type: 3}
+    - {fileID: 8300000, guid: 2e100a08b43f225439751a5649eb08c6, type: 3}
+    - {fileID: 8300000, guid: a2f06c829e62c9d49b6dc43e02376f2b, type: 3}
+    - {fileID: 8300000, guid: 261aaa6d499b36540b86ff9e9ca9d79d, type: 3}
+    - {fileID: 8300000, guid: be00c245d1162564380e0441ab3367ba, type: 3}
+    - {fileID: 8300000, guid: 67bcce1eccfdcff47aa1b598f98db24b, type: 3}
+    - {fileID: 8300000, guid: b632dbfd31dbbe1479f67126392d2221, type: 3}
+    - {fileID: 8300000, guid: 77b0958831ad0c449bf6166b83729680, type: 3}
+    - {fileID: 8300000, guid: 083f3c2f1983dd8419a9336eef471567, type: 3}
+    WalkingInterval: 0.5
+    SprintingInterval: 0.25
+    CouchingInterval: 1
+  - Tag: Dirt
+    AudioClips:
+    - {fileID: 8300000, guid: 95b2a5a5cf7293b459ed9f7b70358ebb, type: 3}
+    - {fileID: 8300000, guid: 207fbca36c5967245bb0a47fd5ec0fab, type: 3}
+    - {fileID: 8300000, guid: fb7f3da4d01c2f64abfd97fa31d4e6ee, type: 3}
+    WalkingInterval: 0
+    SprintingInterval: 0
+    CouchingInterval: 0
+  - Tag: Glass
+    AudioClips:
+    - {fileID: 8300000, guid: 37cf78e8b5ae2914e85409460f9f10d5, type: 3}
+    - {fileID: 8300000, guid: 14708eb4859ba3c47806030caca9beb3, type: 3}
+    - {fileID: 8300000, guid: a9ace5463c10df54190bdc9851344526, type: 3}
+    - {fileID: 8300000, guid: 739150546d2d9164f95487885ce21565, type: 3}
+    - {fileID: 8300000, guid: d1f38ef4f5f13974a97fe5535771dab0, type: 3}
+    - {fileID: 8300000, guid: 300607a145476f7488387e546f89559a, type: 3}
+    - {fileID: 8300000, guid: 1da213361c44c7c49a851a29feac3d6b, type: 3}
+    - {fileID: 8300000, guid: 81431f096b0e34640b82b4e1e36f438f, type: 3}
+    - {fileID: 8300000, guid: 11473fa8163245e4e8ea2f04c0871996, type: 3}
+    - {fileID: 8300000, guid: bc262e8f0cbcbf340b9f6366654551a4, type: 3}
+    - {fileID: 8300000, guid: 75a50bc783272b6438f99130f8e3bd7f, type: 3}
+    - {fileID: 8300000, guid: 1cff6e7f344d66c4d8816c0688660686, type: 3}
+    - {fileID: 8300000, guid: 6a9f3cf4e9d96dc45a3d2b09bc57a909, type: 3}
+    WalkingInterval: 0.5
+    SprintingInterval: 0.25
+    CouchingInterval: 1
+  - Tag: Grass
+    AudioClips:
+    - {fileID: 8300000, guid: cfed1eac83b1eee45acab81d2622107a, type: 3}
+    - {fileID: 8300000, guid: a32bce817feae014bb366887ae7f9f67, type: 3}
+    - {fileID: 8300000, guid: 29570025d8f509f468c8cdbade402103, type: 3}
+    WalkingInterval: 0.5
+    SprintingInterval: 0.25
+    CouchingInterval: 1
+  - Tag: Gravel
+    AudioClips:
+    - {fileID: 8300000, guid: f43ed21d73d428a4d920790872518c1b, type: 3}
+    - {fileID: 8300000, guid: bfa2b77765af1a548bf7a0ad0579f9e9, type: 3}
+    - {fileID: 8300000, guid: 5c0decb2da1776248b2f60495d9d94ed, type: 3}
+    - {fileID: 8300000, guid: 3c49a3bf3607b1540a339d4134ebd7b8, type: 3}
+    - {fileID: 8300000, guid: 2ab4c1a3b5cf47c44bcb060ef0a25ceb, type: 3}
+    - {fileID: 8300000, guid: e3d04ecf9551d4d42a26836477f6148f, type: 3}
+    - {fileID: 8300000, guid: 3bbd263523f20ff47823cb760e570824, type: 3}
+    - {fileID: 8300000, guid: c0f0f54d6dbe33343819e9db0bc623e9, type: 3}
+    - {fileID: 8300000, guid: aeabd8143a4ca5d45a59499fcc43a0f8, type: 3}
+    - {fileID: 8300000, guid: 897e16acd10b46e4f871e1dd59e85278, type: 3}
+    - {fileID: 8300000, guid: ce6412b62892baa49b5c48bee41ed559, type: 3}
+    - {fileID: 8300000, guid: 974765112c9d38442a3cd16dba4b4053, type: 3}
+    - {fileID: 8300000, guid: 8820edd9cacefed4f941d655c895760d, type: 3}
+    WalkingInterval: 0
+    SprintingInterval: 0
+    CouchingInterval: 0
+  - Tag: Metal
+    AudioClips:
+    - {fileID: 8300000, guid: ea67bf6bfe9b3e24d92442ccccf4c3ef, type: 3}
+    - {fileID: 8300000, guid: 5c5cfad5a59cf784a890dbd4e027c827, type: 3}
+    - {fileID: 8300000, guid: 1c8bccea2544d1e46aee29dff75e514a, type: 3}
+    - {fileID: 8300000, guid: fb89907b6fc08074e86b3c8ff4f6ea21, type: 3}
+    - {fileID: 8300000, guid: 09a4be779d12d524eacb8f0e0e89734f, type: 3}
+    - {fileID: 8300000, guid: bdaa4cd0a852ed94e9fd381de36fa7ed, type: 3}
+    - {fileID: 8300000, guid: 30f59d65d07b907468b82b1becc47ac9, type: 3}
+    - {fileID: 8300000, guid: dea5cb63dafa54049ba1875a3cfcdeed, type: 3}
+    - {fileID: 8300000, guid: 890c7879742ca2246b7ef5ea50d679c4, type: 3}
+    - {fileID: 8300000, guid: 34c50ff8e4593df49b38069617930998, type: 3}
+    - {fileID: 8300000, guid: ba55b191d64709a4c94aad0d3ead69d6, type: 3}
+    - {fileID: 8300000, guid: 84792a224b7a9d64cae6d6ced67779a8, type: 3}
+    - {fileID: 8300000, guid: 25e5a565b93b92143a68a682e6e2ee77, type: 3}
+    - {fileID: 8300000, guid: 65a448bc76f4b784ba8e2ed8929d5818, type: 3}
+    - {fileID: 8300000, guid: 7d2296bf3e9bbbf4a90e431413128093, type: 3}
+    WalkingInterval: 0
+    SprintingInterval: 0
+    CouchingInterval: 0
+  - Tag: Rock
+    AudioClips:
+    - {fileID: 8300000, guid: f375287431338db43bb2e1d7be947a45, type: 3}
+    - {fileID: 8300000, guid: 93c0a665050c2b040940f960be62c299, type: 3}
+    - {fileID: 8300000, guid: 9664befccbc5ca4489872dd49225a048, type: 3}
+    - {fileID: 8300000, guid: 410ad3571d36ef040802d5893cca3630, type: 3}
+    WalkingInterval: 0
+    SprintingInterval: 0
+    CouchingInterval: 0
+  - Tag: Snow
+    AudioClips:
+    - {fileID: 8300000, guid: 2ae9456737f07fc4993bc4ddfd2bb5ef, type: 3}
+    - {fileID: 8300000, guid: 6916c11c0c3cee44092b6ca1d432fc55, type: 3}
+    - {fileID: 8300000, guid: 0c3b51e0dbdf01941b91098e5ce650eb, type: 3}
+    - {fileID: 8300000, guid: fa813b9099324844d9c9b023e0c0593e, type: 3}
+    - {fileID: 8300000, guid: a3acf5bde6d01aa45bf17975ec69c077, type: 3}
+    - {fileID: 8300000, guid: 34bd9f32b2754b94b8838f05bf66782a, type: 3}
+    - {fileID: 8300000, guid: a0ac38acdafe9274ba0d1512585f6b97, type: 3}
+    - {fileID: 8300000, guid: d7c720f3ccd5b8446a7485aecc7ba92f, type: 3}
+    - {fileID: 8300000, guid: f67dbdf0533e2cd49bacb73cdd295030, type: 3}
+    - {fileID: 8300000, guid: 2ccb8a247d35c1444a284f650f763c54, type: 3}
+    - {fileID: 8300000, guid: 07806a81b474f01409ce77ec839c81b3, type: 3}
+    - {fileID: 8300000, guid: bb9f67636a4aa684195d5f0da11dcf3b, type: 3}
+    - {fileID: 8300000, guid: 5dd7f88e7eabf064b91ec22135d44f91, type: 3}
+    - {fileID: 8300000, guid: 971d83e6580295e4fa2e593c8c7201f2, type: 3}
+    - {fileID: 8300000, guid: 8c3b5f8f96f2ede4ab8e698b6c664b5a, type: 3}
+    WalkingInterval: 0.5
+    SprintingInterval: 0.25
+    CouchingInterval: 1
+  - Tag: Water
+    AudioClips:
+    - {fileID: 8300000, guid: d323f962cb9a771429839fd692c4a1d4, type: 3}
+    - {fileID: 8300000, guid: a72b6bd41569d424f83de5d5857cee91, type: 3}
+    - {fileID: 8300000, guid: 2125ed3ad92f16341b38c9b4ae035400, type: 3}
+    - {fileID: 8300000, guid: d8f710ae26585ec4588ce54c6b0f617a, type: 3}
+    - {fileID: 8300000, guid: d4bf1214a23e4a54da9d8fa45fe95299, type: 3}
+    - {fileID: 8300000, guid: 5513cd6750bb75b44a1d8d633b607d4d, type: 3}
+    - {fileID: 8300000, guid: 368650ba2c2fece408e54ccd8de96336, type: 3}
+    - {fileID: 8300000, guid: e54534ca0eb7b644a91b71f40fa3c3f8, type: 3}
+    - {fileID: 8300000, guid: a0c15f819e92c414d810608fea6e5fa3, type: 3}
+    WalkingInterval: 0.5
+    SprintingInterval: 0.25
+    CouchingInterval: 1
+  - Tag: Wood
+    AudioClips:
+    - {fileID: 8300000, guid: a419eb06472c83845b41b59bc20f0197, type: 3}
+    - {fileID: 8300000, guid: e410ae1bb9b1a974eb9bc2ace8a9b356, type: 3}
+    - {fileID: 8300000, guid: 1283dd26001023947b06278a33954801, type: 3}
+    - {fileID: 8300000, guid: 6fd3f276155fdd24d9914bb2177e8c64, type: 3}
+    - {fileID: 8300000, guid: 9615af069fa403947bbba84c09060804, type: 3}
+    - {fileID: 8300000, guid: 6f543785bbc25e04294dad22ba39fb50, type: 3}
+    - {fileID: 8300000, guid: 3218a7c2c4f85494eac892859d72332b, type: 3}
+    - {fileID: 8300000, guid: c91822a7c4758a14fb75e6513ea7d9a0, type: 3}
+    - {fileID: 8300000, guid: af547309758ebf3458c1780053acb9a2, type: 3}
+    - {fileID: 8300000, guid: 2da254069b896ab4d8ce03bab306bfb4, type: 3}
+    - {fileID: 8300000, guid: dd8994018d37d834a9ca298fc0c0c5d8, type: 3}
+    - {fileID: 8300000, guid: c9a64ebe05e584445b20423794d8c2e4, type: 3}
+    - {fileID: 8300000, guid: 7f8db19fe56fe2a459fb4b2d4e8fd382, type: 3}
+    WalkingInterval: 0
+    SprintingInterval: 0
+    CouchingInterval: 0

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb602ddeb1f84714a639081365a60473, type: 3}
+  m_Name: RPG_Audio_Data
+  m_EditorClassIdentifier: 
+  ShootingAudio: {fileID: 8300000, guid: 38b450e2adcb6f542acc8c1d423bd8dc, type: 3}
+  ReloadProjectile: {fileID: 8300000, guid: 5e815e9bcf2d45b46b942b8f91b882e9, type: 3}

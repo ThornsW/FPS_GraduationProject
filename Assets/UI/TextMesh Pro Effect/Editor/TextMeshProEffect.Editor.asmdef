@@ -1,0 +1,17 @@
+{
+    "name": "TextMeshProEffect.Editor",
+    "references": [
+        "GUID:7d8e9e122924faa4bb27c57e77d13ce7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
