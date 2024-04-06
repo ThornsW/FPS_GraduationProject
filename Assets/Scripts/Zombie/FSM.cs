@@ -37,7 +37,12 @@ public class FSM : MonoBehaviour
         navAgent.speed = EnemyParameter.MoveSpeed;
         // 获取玩家的变换组件
         playerTransform = GameObject.FindWithTag("Player").transform;
-        
+
+        //自定义血条
+        EnemyParameter.MaxHealth = 100;
+        EnemyParameter.CurrentHealth = 100;
+        EnemyParameter.MoveSpeed = 10;
+
         // 注册各种状态
         states.Add(StateType.Idle, new IdleState(this));
         states.Add(StateType.Patrol, new PatrolState(this));

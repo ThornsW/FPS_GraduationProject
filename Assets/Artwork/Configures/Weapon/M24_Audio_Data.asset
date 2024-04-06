@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9addcc05f8c4a4ab917527dec0a6a42, type: 3}
   m_Name: M24_Audio_Data
   m_EditorClassIdentifier: 
-  ShootingAudio: {fileID: 8300000, guid: 38b450e2adcb6f542acc8c1d423bd8dc, type: 3}
+  ShootingAudio: {fileID: 8300000, guid: 3cde4ea38a6f78a4cb9f531a3ba1239d, type: 3}
   ReloadOpen: {fileID: 8300000, guid: 2bd3464bb5afb704a89469a5ecf72ec5, type: 3}
   ReloadInsert: {fileID: 8300000, guid: 657f66f361dd0cc438866c411bf22a6e, type: 3}
   ReloadClose: {fileID: 8300000, guid: f73ce9d68f9e1ca4f9082ee1d1808ad5, type: 3}

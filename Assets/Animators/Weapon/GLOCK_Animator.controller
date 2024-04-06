@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4087c58b6a98ab74a88d12b49899c597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundClip: {fileID: 8300000, guid: 38b450e2adcb6f542acc8c1d423bd8dc, type: 3}
+  soundClip: {fileID: 8300000, guid: ef896dc293dbda244b970f776c8fafba, type: 3}
 --- !u!1101 &-8781142295415611989
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4087c58b6a98ab74a88d12b49899c597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundClip: {fileID: 8300000, guid: 38b450e2adcb6f542acc8c1d423bd8dc, type: 3}
+  soundClip: {fileID: 8300000, guid: ef896dc293dbda244b970f776c8fafba, type: 3}
 --- !u!1102 &-6677997753770514111
 AnimatorState:
   serializedVersion: 6
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4087c58b6a98ab74a88d12b49899c597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundClip: {fileID: 8300000, guid: 2ae41e984ff1f3e4a840a1a46b6a8816, type: 3}
+  soundClip: {fileID: 8300000, guid: e1a153e1eaacf2544bf00a4b8e42e3eb, type: 3}
 --- !u!1107 &-4335165281260740189
 AnimatorStateMachine:
   serializedVersion: 6

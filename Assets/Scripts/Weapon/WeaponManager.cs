@@ -315,10 +315,10 @@ public class WeaponManager : MonoBehaviour
                 transform.forward, Color.red);
 #endif
 
-            // 检测小刀攻击动画播放进度到大概40%时，进行攻击检测和造成伤害
+            // 检测小刀攻击动画播放进度到大概30%时，进行攻击检测和造成伤害
             if ((animatorInfo.IsName("Base Layer.Knife Attack 1") ||
                  animatorInfo.IsName("Base Layer.Knife Attack 2")) &&
-                playingDecimalPart >= 0.4)
+                playingDecimalPart >= 0.3)
             {
                 // 当射线检测到敌人时，伤害才有效
                 RaycastHit hit;
