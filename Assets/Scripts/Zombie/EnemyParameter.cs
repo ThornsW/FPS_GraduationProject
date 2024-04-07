@@ -15,7 +15,7 @@ public class EnemyParameter
     
     public float MoveSpeed; // 移动速度
 
-    public float IdleTime; // 每次原地空闲事件
+    public float IdleTime; // 每次原地空闲时间
 
     public float PatrolDistance; // 每次巡逻移动距离
 

@@ -10,10 +10,10 @@ public class MainMenu : MonoBehaviour
         AudioListener.pause = false;
     }
 
-    // 开始游戏，默认进行关卡一
+    // 开始游戏
     public void PlayGame()
     {
-        SceneManager.LoadScene("LevelTwo");
+        SceneManager.LoadScene("Scene1");
     }
 
     // 退出游戏

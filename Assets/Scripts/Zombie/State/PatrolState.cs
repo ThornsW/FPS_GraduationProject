@@ -37,7 +37,7 @@ public class PatrolState : IState
         // 前往巡逻目的地
         navAgent.SetDestination(randomPatrolPosition);
     }
-
+    
     public void OnUpdate()
     {
         timer += Time.deltaTime;

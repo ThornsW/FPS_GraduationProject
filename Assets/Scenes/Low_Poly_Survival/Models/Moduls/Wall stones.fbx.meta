@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: af49e7b73f86c3943a0bdb5a65eede09
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Wall stones
+    100004: Wall stones.003
+    100006: Wall stones.004
+    100008: Wall stones.005
+    100010: Wall stones.006
+    100012: Wall stones.007
+    100014: Wall stones.008
+    100016: Wall stones.009
+    100018: Wall stones.010
+    400000: //RootNode
+    400002: Wall stones
+    400004: Wall stones.003
+    400006: Wall stones.004
+    400008: Wall stones.005
+    400010: Wall stones.006
+    400012: Wall stones.007
+    400014: Wall stones.008
+    400016: Wall stones.009
+    400018: Wall stones.010
+    2100000: No Name
+    2300000: Wall stones
+    2300002: Wall stones.003
+    2300004: Wall stones.004
+    2300006: Wall stones.005
+    2300008: Wall stones.006
+    2300010: Wall stones.007
+    2300012: Wall stones.008
+    2300014: Wall stones.009
+    2300016: Wall stones.010
+    3300000: Wall stones
+    3300002: Wall stones.003
+    3300004: Wall stones.004
+    3300006: Wall stones.005
+    3300008: Wall stones.006
+    3300010: Wall stones.007
+    3300012: Wall stones.008
+    3300014: Wall stones.009
+    3300016: Wall stones.010
+    4300000: Wall stones.009
+    4300002: Wall stones.008
+    4300004: Wall stones.007
+    4300006: Wall stones.006
+    4300008: Wall stones.005
+    4300010: Wall stones.004
+    4300012: Wall stones.003
+    4300014: Wall stones
+    4300016: Wall stones.010
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,12 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Formal/MainMenu.unity
     guid: 428ba5b75e57d0a4a80756f19350af7b
   - enabled: 1
-    path: Assets/Scenes/Formal/LevelOne.unity
-    guid: cc6e4f5a39b16fe44841312e4e03568a
+    path: Assets/Scenes/Formal/Scene1.unity
+    guid: d2829262d7f01cb43802f9540e85d63a
   - enabled: 1
-    path: Assets/Scenes/Formal/LevelTwo.unity
-    guid: 008331b123905804eba98863d5afaff2
-  - enabled: 1
-    path: Assets/Scenes/Formal/LevelThree.unity
-    guid: ef3eb43d82c0ed542b64d72121916d94
+    path: Assets/Scenes/Formal/Scene2.unity
+    guid: ec79bbf7d95c5c747baf79aa107b6a18
   m_configObjects: {}

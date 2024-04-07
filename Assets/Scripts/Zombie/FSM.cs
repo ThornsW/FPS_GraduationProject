@@ -38,11 +38,6 @@ public class FSM : MonoBehaviour
         // 获取玩家的变换组件
         playerTransform = GameObject.FindWithTag("Player").transform;
 
-        //自定义血条
-        EnemyParameter.MaxHealth = 100;
-        EnemyParameter.CurrentHealth = 100;
-        EnemyParameter.MoveSpeed = 10;
-
         // 注册各种状态
         states.Add(StateType.Idle, new IdleState(this));
         states.Add(StateType.Patrol, new PatrolState(this));
@@ -51,7 +46,18 @@ public class FSM : MonoBehaviour
         states.Add(StateType.Attack, new AttackState(this));
         states.Add(StateType.Hurt, new HurtState(this));
         states.Add(StateType.Death, new DeathState(this));
-        
+
+        //初始化僵尸参数
+        EnemyParameter.CurrentHealth = 100;
+        EnemyParameter.MaxHealth = 100;
+        EnemyParameter.Height = 1.8f;
+        EnemyParameter.MoveSpeed = 0.3f;
+        EnemyParameter.IdleTime = 2f;
+        EnemyParameter.PatrolDistance = 10f;
+        EnemyParameter.PatrolMaxTime = 7f;
+        EnemyParameter.HatredAreaRadius = 12f;
+        EnemyParameter.InjuryProbability = 0.5f;
+
         // 默认状态为空闲
         TransitionState(StateType.Idle);
     }
