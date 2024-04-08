@@ -1,15 +1,13 @@
+/*找不到bug
 using UnityEngine;
 
-/*
- * 角色脚步声
- */
 public class PlayerFootstepListener : MonoBehaviour
 {
     public FootstepAudioData FootstepAudioData;
     public AudioSource FootstepAudioSource;
     public LayerMask LayerMask; // 层
     
-    private CharacterController characterController;
+    public CharacterController characterController;
     private Transform footstepTransform;
     private FPCharacterControllerMovement fpCharacterControllerMovement;
     
@@ -33,20 +31,23 @@ public class PlayerFootstepListener : MonoBehaviour
             if (characterController.velocity.normalized.magnitude >= 0.1f)
             {
                 // 用来检测角色是否触地的最低端，也就是角色的脚
-                var detectEnd = footstepTransform.position + Vector3.down * (characterController.height / 2 +
-                                                                             characterController.skinWidth +
-                                                                             Mathf.Abs(characterController.center.y));
+                var detectEnd = footstepTransform.position + Vector3.down * (characterController.height / 2 + characterController.skinWidth + Mathf.Abs(characterController.center.y));
+
                 // 是否碰到地面
-                bool isHit = Physics.Linecast(footstepTransform.position, detectEnd, out RaycastHit hitInfo, LayerMask);
+                bool isHit = Physics.Linecast(footstepTransform.position, detectEnd, out RaycastHit hitInfo, 1);
+    
+                Debug.Log(isHit);
 
+                
                 // debug: 用红线标识落脚处，只在unity编辑界面中有效
-#if UNITY_EDITOR
+                #if UNITY_EDITOR
                 Debug.DrawLine(footstepTransform.position, detectEnd, Color.red, 0.25f);
-#endif
-
+                #endif
+                
                 // 检测到碰到地面
-                if (isHit)
+                if (isHit == false)
                 {
+                    Debug.Log("1");
                     RandomPlayHitAudio(hitInfo);
                 }
             }
@@ -92,6 +93,42 @@ public class PlayerFootstepListener : MonoBehaviour
                     break;
                 }
             }
+        }
+    }
+}
+*/
+
+using UnityEngine;
+
+public class PlayerFootstepListener : MonoBehaviour
+{
+    public AudioSource FootstepAudioSource; // 指定用于播放脚步声的AudioSource组件
+    public AudioClip FootstepAudioClip; // 指定播放的音频剪辑
+    public CharacterController characterController; // 角色控制器组件引用
+
+    private void Start()
+    {
+        // 确保在开始时获取了CharacterController组件的引用
+        characterController = GetComponent<CharacterController>();
+    }
+
+    private void FixedUpdate()
+    {
+        // 检查角色是否在地面上并且有移动速度
+        if (characterController.isGrounded && characterController.velocity.magnitude > 0.1f)
+        {
+            PlayFootstepAudio();
+        }
+    }
+
+    // 播放脚步声
+    private void PlayFootstepAudio()
+    {
+        // 如果音频源当前没有播放音频，播放指定的脚步声音频
+        if (!FootstepAudioSource.isPlaying)
+        {
+            FootstepAudioSource.clip = FootstepAudioClip;
+            FootstepAudioSource.Play();
         }
     }
 }

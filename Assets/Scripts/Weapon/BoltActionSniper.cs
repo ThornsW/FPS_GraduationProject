@@ -155,7 +155,7 @@ namespace Scripts.Weapon
             // 添加tag
             tmpBullet.tag = "Bullet";
             // 子弹散射（改变子弹射出的角度）
-            tmpBullet.transform.eulerAngles += CalculateSpreadOffset();
+            //tmpBullet.transform.eulerAngles += CalculateSpreadOffset();
             var bulletScript = tmpBullet.AddComponent<Bullet>();
             bulletScript.ImpactPrefab = BulletImpactPrefab;
             bulletScript.ImpactAudioData = ImpactAudioData;

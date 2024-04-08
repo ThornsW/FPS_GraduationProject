@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4087c58b6a98ab74a88d12b49899c597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundClip: {fileID: 8300000, guid: 60e69f71d49f6354c9d5370181f05e59, type: 3}
+  soundClip: {fileID: 8300000, guid: dc6eebb768fb86648a00ec258f63f009, type: 3}
 --- !u!1101 &-4363085135010339701
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
